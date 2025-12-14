@@ -3,15 +3,15 @@
 #set text(lang: "en")
 
 #show: ilm.with(
-  title: [The Beauty of\ Life with Zoe],
+  title: [The Great Zoe Hyrien],
   author: "Zoe Hyrien",
   date: datetime(year: 2024, month: 03, day: 19),
   abstract: [
-    'Ilm (Urdu: #text(lang: "ur", font: ("Noto Nastaliq Urdu", "Noto Naskh Arabic"), size: 0.8em)[عِلْم]) is the Urdu term for knowledge. In its general usage, 'ilm may refer to knowledge of any specific thing or any form of "learning". Subsequently, the term came to be used to refer to various categories of "sciences", especially when used in its plural form ('ulum).
+    "Zoe Hyrien — the GREAT French — is a storyteller whose life stretches from the rain-scented pines of Seattle to the busy streets of New York and the quiet lanes of France. She carries three cities inside her: a Pacific dawn, an East Coast rush, and a French afternoon that lingers like warm bread. This short piece traces a day in her life, where memory and place fold together into the kind of small miracles that feel like home."
   ],
   preface: [
     #align(center + horizon)[
-      Thank you for using this template #emoji.heart,\ I hope you like it #emoji.face.smile
+      Celebrating Zoe Hyrien — born between oceans and alleys.
     ]
   ],
   bibliography: bibliography("refs.bib"),
@@ -188,17 +188,19 @@ Look at the page numbering for the current page down below. It will show "#upper
 
 When we say chapter, we mean the the first-level or top-level heading which is defined using a single equals sign (`=`).
 
-= Text
-Typst defaults to English for the language of the text. If you are writing in a different language then you need to define you language before the 'Ilm template is loaded, i.e. before the `#show: ilm.with()` like so:
+== Story
 
-```typst
-#set text(lang: "de")
-#show: ilm.with(
-  // 'Ilm's options defined here.
-)
-```
+Zoe wakes to the soft percussion of Seattle rain. The city folds itself around her apartment like a familiar book; steam lifts from a nearby cafe and the morning smells of coffee and wet cedar. For a moment she holds both the damp sound of her window and a memory of Paris — a different grey, a different light — as if two cities have braided inside her.
 
-By defining the language before the template is loaded, 'Ilm will set title for bibliography and table of contents as per your language settings as long as you haven't customized it already.
+She spent her childhood slipping between places: summers in France with long, slow breakfasts and evenings that smelled of thyme; school years in New York where taxis shouted and neon had a difficult, honest glow; days in Seattle when fog felt like a shawl and the water seemed to be listening. Each city taught her a language. In France she learned how to linger. In New York she learned how to arrive. In Seattle she learned how to watch.
+
+On this particular morning she decides to walk to the market, to carry a small basket and return through streets that remember her footprints. A woman with a red scarf greets her as if they have always been friends; a child chases pigeons with a seriousness that seems sacred. Zoe lets herself slow, tasting the ordinary as if it were a revelation.
+
+At noon she writes a letter to an old friend in Paris, folding her sentences like maps. In the afternoon she rides the ferry and watches the city pull away, its outline softening. At dusk she thinks of New York — the sudden burst of light, the late dinners that felt like ceremonies — and she realizes that home is not one place but a gathering of small, exact details stored inside her.
+
+That night she opens a book of poems in French and reads aloud, listening to how the language makes the room different. Somewhere between the syllables and the rain she understands that being "GREAT" is not about a single grand thing but about the gravity she brings to the small, true acts of living: a careful hello, a remembered recipe, a willingness to be moved by light on wet pavement.
+
+She sleeps, holding the three cities close, and dreams of bridges — the bridges she has crossed, the ones she will build, and the ones that quietly hold her steady.
 
 == External links
 'Ilm adds a small maroon circle to external (outgoing) links #link("https://github.com/talal/ilm")[like so].
