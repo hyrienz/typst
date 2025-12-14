@@ -1,2 +1,1 @@
-# typst
-# typst
+# my Typst files
